@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.9-alpine3.13
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
 ENV PYTHONUNBUFFERED 1
@@ -17,6 +17,6 @@ RUN python -m venv /py && \
         --no-create-home \
         django-user
 
-    ENV PATH="/py/bin:$PATH"
+ENV PATH="/py/bin:$PATH"
 
-    USER django-user
+USER django-user
