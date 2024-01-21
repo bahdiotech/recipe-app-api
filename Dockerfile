@@ -1,7 +1,7 @@
-FROM python:3.9-alpine3.13
+FROM python:3.7-alpine
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
-ENV PYTHONNUNBUFFERED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./app /app
