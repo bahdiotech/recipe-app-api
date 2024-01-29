@@ -265,10 +265,10 @@
     {
         "label": "calcTests",
         "kind": 6,
-        "importPath": "app.app.test",
-        "description": "app.app.test",
+        "importPath": "app.app.tests",
+        "description": "app.app.tests",
         "peekOfCode": "class calcTests(SimpleTestCase):\n    \"\"\"Test the calc module\"\"\"\n    def test_add_numbers(self):\n        \"\"\"Test adding numbers together\"\"\"\n        res = calc.add(5,6)\n        self.assertEqual(res, 11)\n    def test_subtract_numbers(self):\n        \"\"\"Test subtract numbers \"\"\"\n        res = calc.subtract(10, 15)\n        self.assertEqual(res, 5)",
-        "detail": "app.app.test",
+        "detail": "app.app.tests",
         "documentation": {}
     },
     {
