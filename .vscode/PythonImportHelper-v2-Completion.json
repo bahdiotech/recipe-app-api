@@ -521,7 +521,7 @@
         "kind": 6,
         "importPath": "app.core.management.commands.wait_for_db",
         "description": "app.core.management.commands.wait_for_db",
-        "peekOfCode": "class Command(BaseCommand):\n    \"\"\"Django Command to wait for Database.\"\"\"\n    def handle(self, *args, **options):\n        \"\"\"Entrypoint for command.\"\"\"\n        self.stdout.write('Wait for database') \"\"\"\" the command self.stdout is for standard output stream\"\"\"\n        db_up = False\n        while db_up is False:\n            try:\n                self.check(databases=['default'])\n                db_up = True",
+        "peekOfCode": "class Command(BaseCommand):\n    \"\"\"Django Command to wait for Database.\"\"\"\n    def handle(self, *args, **options):\n        \"\"\"Entrypoint for command.\"\"\"\n        self.stdout.write('Wait for database') \n        \"\"\" the command self.stdout is for standard output stream\"\"\"\n        db_up = False\n        while db_up is False:\n            try:\n                self.check(databases=['default'])",
         "detail": "app.core.management.commands.wait_for_db",
         "documentation": {}
     },
