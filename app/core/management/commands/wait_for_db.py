@@ -13,7 +13,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         """Entrypoint for command."""
-        self.stdout.write('Wait for database')
+        self.stdout.write('Wait for database') """" the command self.stdout is for standard output stream"""
         db_up = False
         while db_up is False:
             try:
