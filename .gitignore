@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+*.DS_Store
+*.DS_Store/
+vscode/
 
 # Distribution / packaging
 .Python
@@ -50,9 +53,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-.DS_Store
-.DS_Store/
-.vscode/
+
+
 
 # Translations
 *.mo
@@ -145,6 +147,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
 # app/.DS_Store
 
 # Pyre type checker
