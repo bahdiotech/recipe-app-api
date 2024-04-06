@@ -2,7 +2,7 @@
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 from django.urls import reverse
-from django.test import Client
+
 
 from rest_framework import status
 from rest_framework.test import APIClient
@@ -55,7 +55,7 @@ class PrivateTagsApiTests(TestCase):
         
     def test_tags_limited_to_user(self):
         """Test the list of tags is limited to authenticated user"""
-        user2 = create_user(email='<EMAIL>', password='<PASSWORD>')
+        user2 = create_user(email='bard@me.com', password='testpass2')
         Tag.objects.create(user=user2, name='Vegan')
         tag = Tag.objects.create(user=self.user, name='Dessert')
 
@@ -65,8 +65,3 @@ class PrivateTagsApiTests(TestCase):
         self.assertEqual(len(res.data), 1)
         self.assertEqual(res.data[0]['name'], tag.name)
         self.assertEqual(res.data[0]['id'], tag.id)
-
-    
-
-
-
