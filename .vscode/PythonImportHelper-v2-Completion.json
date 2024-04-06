@@ -89,6 +89,22 @@
         "documentation": {}
     },
     {
+        "label": "Client",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -114,6 +130,14 @@
     },
     {
         "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -267,6 +291,46 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -320,6 +384,14 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
@@ -507,6 +579,22 @@
         "documentation": {}
     },
     {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -579,6 +667,14 @@
         "documentation": {}
     },
     {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
         "label": "Recipe",
         "importPath": "core.models",
         "description": "core.models",
@@ -604,6 +700,14 @@
     },
     {
         "label": "RecipeDetailSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
+        "isExtraImport": true,
+        "detail": "recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TagSerializer",
         "importPath": "recipe.serializers",
         "description": "recipe.serializers",
         "isExtraImport": true,
@@ -970,6 +1074,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0004_tag_recipe_tags",
+        "description": "app.core.migrations.0004_tag_recipe_tags",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0003_alter_recipe_link'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Tag',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "detail": "app.core.migrations.0004_tag_recipe_tags",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0005_alter_recipe_tags",
+        "description": "app.core.migrations.0005_alter_recipe_tags",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0004_tag_recipe_tags'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='recipe',\n            name='tags',\n            field=models.ManyToManyField(related_name='recipes', to='core.tag'),\n        ),",
+        "detail": "app.core.migrations.0005_alter_recipe_tags",
+        "documentation": {}
+    },
+    {
         "label": "AdminSiteTests",
         "kind": 6,
         "importPath": "app.core.tests.test_admin",
@@ -993,6 +1115,15 @@
         "importPath": "app.core.tests.test_models",
         "description": "app.core.tests.test_models",
         "peekOfCode": "class ModelTests(TestCase):\n    \"\"\"Test models.\"\"\"\n    def test_create_user_with_email_successful(self):\n        \"\"\"Test creating a user with an email successful.\"\"\"\n        email = 'test@example.com'\n        password = 'testpass123'\n        user = get_user_model().objects.create_user(email=email,\n                                                    password=password,\n                                                    )\n        self.assertEqual(user.email, email)",
+        "detail": "app.core.tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.core.tests.test_models",
+        "description": "app.core.tests.test_models",
+        "peekOfCode": "def create_user(email='user@example.com', password='testpass'):\n    \"\"\"Create and return a new user\"\"\"\n    return get_user_model().objects.create_user(email, password)\nclass ModelTests(TestCase):\n    \"\"\"Test models.\"\"\"\n    def test_create_user_with_email_successful(self):\n        \"\"\"Test creating a user with an email successful.\"\"\"\n        email = 'test@example.com'\n        password = 'testpass123'\n        user = get_user_model().objects.create_user(email=email,",
         "detail": "app.core.tests.test_models",
         "documentation": {}
     },
@@ -1042,6 +1173,15 @@
         "documentation": {}
     },
     {
+        "label": "Tag",
+        "kind": 6,
+        "importPath": "app.core.models",
+        "description": "app.core.models",
+        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag for filtering recipes.\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        )\n    def __str__(self):\n        return self.name",
+        "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
         "label": "PublicRecipeApiTests",
         "kind": 6,
         "importPath": "app.recipe.tests.test_recipe_api",
@@ -1055,7 +1195,7 @@
         "kind": 6,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "class PrivateRecipeApiTests(TestCase):\n    \"\"\"Test athenticated API requests\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = get_user_model().objects.create_user(\n            'user@example.com',\n            'testpass123',\n        )\n        self.client.force_authenticate(self.user)\n    def test_retrieve_recipes(self):",
+        "peekOfCode": "class PrivateRecipeApiTests(TestCase):\n    \"\"\"Test athenticated API requests\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = create_user(\n            email='user@example.com',\n            password='testpass123',\n        )\n        self.client.force_authenticate(self.user)\n    def test_retrieve_recipes(self):",
         "detail": "app.recipe.tests.test_recipe_api",
         "documentation": {}
     },
@@ -1064,7 +1204,7 @@
         "kind": 2,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "def detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),",
+        "peekOfCode": "def detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),",
         "detail": "app.recipe.tests.test_recipe_api",
         "documentation": {}
     },
@@ -1073,7 +1213,16 @@
         "kind": 2,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "def create_recipe(user, **params):\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),\n        'link': 'http://example.com/recipe.pdf',\n    }\n    defaults.update(params)",
+        "peekOfCode": "def create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),\n        'link': 'http://example.com/recipe.pdf',\n    } | params\n    return Recipe.objects.create(user=user, **defaults)",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "def create_user(**params):\n    \"\"\"Create and return a new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicRecipeApiTests(TestCase):\n    \"\"\"Test unathenticated API requests.\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required\"\"\"\n        res = self.client.get(RECIPES_URL)",
         "detail": "app.recipe.tests.test_recipe_api",
         "documentation": {}
     },
@@ -1082,8 +1231,44 @@
         "kind": 5,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "RECIPES_URL = reverse('recipe:recipe-list')\ndef detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,",
+        "peekOfCode": "RECIPES_URL = reverse('recipe:recipe-list')\ndef detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,",
         "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "PublicTagsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "class PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"\n        res = self.client.get(TAGS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authenticated available tags API\"\"\"",
+        "detail": "app.recipe.tests.test_tags_api",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateTagsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "class PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = create_user()\n        self.client.force_authenticate(self.user)\n    def test_retrieve_tags(self):\n        \"\"\"Test retrieving a list of tags\"\"\"\n        Tag.objects.create(user=self.user, name='Vegan')\n        Tag.objects.create(user=self.user, name='Dessert')",
+        "detail": "app.recipe.tests.test_tags_api",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "def create_user(username='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(username, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"\n        res = self.client.get(TAGS_URL)",
+        "detail": "app.recipe.tests.test_tags_api",
+        "documentation": {}
+    },
+    {
+        "label": "TAGS_URL",
+        "kind": 5,
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "TAGS_URL = reverse('recipe:tag-list')\ndef create_user(username='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(username, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"",
+        "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
     {
