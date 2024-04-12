@@ -97,6 +97,14 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -153,6 +161,14 @@
         "documentation": {}
     },
     {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -185,7 +201,7 @@
         "documentation": {}
     },
     {
-        "label": "SpectacularAPIView",
+        "label": "# type: ignore\n                                  SpectacularAPIView",
         "importPath": "drf_spectacular.views",
         "description": "drf_spectacular.views",
         "isExtraImport": true,
@@ -198,6 +214,54 @@
         "description": "drf_spectacular.views",
         "isExtraImport": true,
         "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -267,30 +331,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -371,11 +411,148 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "core.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "core.models",
+        "description": "core.models",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipe",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipe",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipe",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
@@ -432,6 +609,14 @@
         "description": "django.contrib.auth",
         "isExtraImport": true,
         "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
@@ -531,6 +716,15 @@
         "documentation": {}
     },
     {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "AbstractBaseUser",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
@@ -579,6 +773,22 @@
         "documentation": {}
     },
     {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -604,6 +814,14 @@
     },
     {
         "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "mixins",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -651,35 +869,11 @@
         "documentation": {}
     },
     {
-        "label": "Recipe",
-        "importPath": "core.models",
-        "description": "core.models",
+        "label": "IngredientSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
         "isExtraImport": true,
-        "detail": "core.models",
-        "documentation": {}
-    },
-    {
-        "label": "Tag",
-        "importPath": "core.models",
-        "description": "core.models",
-        "isExtraImport": true,
-        "detail": "core.models",
-        "documentation": {}
-    },
-    {
-        "label": "Recipe",
-        "importPath": "core.models",
-        "description": "core.models",
-        "isExtraImport": true,
-        "detail": "core.models",
-        "documentation": {}
-    },
-    {
-        "label": "Recipe",
-        "importPath": "core.models",
-        "description": "core.models",
-        "isExtraImport": true,
-        "detail": "core.models",
+        "detail": "recipe.serializers",
         "documentation": {}
     },
     {
@@ -926,7 +1120,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -935,7 +1129,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -944,7 +1138,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -953,7 +1147,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -962,7 +1156,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -971,7 +1165,34 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "STATIC_URL = '/static/static/'\nMEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',",
+        "detail": "app.app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "app.app.settings",
+        "description": "app.app.settings",
+        "peekOfCode": "MEDIA_URL = '/static/media/'\nMEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "detail": "app.app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "app.app.settings",
+        "description": "app.app.settings",
+        "peekOfCode": "MEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "detail": "app.app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "app.app.settings",
+        "description": "app.app.settings",
+        "peekOfCode": "STATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1084,6 +1305,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0006_ingredient_recipe_ingredients",
+        "description": "app.core.migrations.0006_ingredient_recipe_ingredients",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0005_alter_recipe_tags'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Ingredient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "detail": "app.core.migrations.0006_ingredient_recipe_ingredients",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0007_recipe_image",
+        "description": "app.core.migrations.0007_recipe_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0006_ingredient_recipe_ingredients'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='recipe',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to=core.models.recipe_image_file_path),\n        ),",
+        "detail": "app.core.migrations.0007_recipe_image",
+        "documentation": {}
+    },
+    {
         "label": "AdminSiteTests",
         "kind": 6,
         "importPath": "app.core.tests.test_admin",
@@ -1169,8 +1408,71 @@
         "kind": 6,
         "importPath": "app.core.models",
         "description": "app.core.models",
-        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag for filtering recipes.\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        )\n    def __str__(self):\n        return self.name",
+        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag for filtering recipes.\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        )\n    def __str__(self):\n        return self.name\nclass Ingredient(models.Model):",
         "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "kind": 6,
+        "importPath": "app.core.models",
+        "description": "app.core.models",
+        "peekOfCode": "class Ingredient(models.Model):\n    \"\"\"Ingredient for recipes.\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        )\n    def __str__(self):\n        return self.name",
+        "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "recipe_image_file_path",
+        "kind": 2,
+        "importPath": "app.core.models",
+        "description": "app.core.models",
+        "peekOfCode": "def recipe_image_file_path(instance, filename):\n    \"\"\"Generates file path for new recipe image\"\"\"\n    ext = os.path.splitext(filename)[1]\n    filename = f'{uuid.uuid4()}{ext}'\n    return os.path.join('uploads', 'recipe', filename)\nclass UserManager(BaseUserManager):\n    \"\"\"Manager for users.\"\"\"\n    def create_user(self, email, password=None, **extra_fields):\n        \"\"\"Create, Save and return a new user.\"\"\"\n        if not email:",
+        "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PublicIngredientsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "class PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required\"\"\"\n        res = self.client.get(INGREDIENTS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateIngredientsApiTests(TestCase):\n    \"\"\"Test the private ingredients API\"\"\"",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateIngredientsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "class PrivateIngredientsApiTests(TestCase):\n    \"\"\"Test the private ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = create_user()\n        self.client.force_authenticate(self.user)\n    def test_retrieve_ingredients(self):\n        \"\"\"Test retrieving a list of ingredients\"\"\"\n        Ingredient.objects.create(user=self.user, name='Kale')\n        Ingredient.objects.create(user=self.user, name='Vanilla')",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "def create_user(email='user@example.com', password='testpass'):\n    \"\"\"Create and return a user\"\"\"\n    return get_user_model().objects.create_user(email, password)\ndef detail_url(ingredient_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:ingredient-detail', args=[ingredient_id])\nclass PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "detail_url",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "def detail_url(ingredient_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:ingredient-detail', args=[ingredient_id])\nclass PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required\"\"\"\n        res = self.client.get(INGREDIENTS_URL)",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "INGREDIENTS_URL",
+        "kind": 5,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "INGREDIENTS_URL = reverse('recipe:ingredient-list')\ndef create_user(email='user@example.com', password='testpass'):\n    \"\"\"Create and return a user\"\"\"\n    return get_user_model().objects.create_user(email, password)\ndef detail_url(ingredient_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:ingredient-detail', args=[ingredient_id])\nclass PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):",
+        "detail": "app.recipe.tests.test_ingredients_api",
         "documentation": {}
     },
     {
@@ -1246,11 +1548,20 @@
         "documentation": {}
     },
     {
+        "label": "detail_url",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "def detail_url(tag_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:tag-detail', args=[tag_id])\ndef create_user(email='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(email, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()",
+        "detail": "app.recipe.tests.test_tags_api",
+        "documentation": {}
+    },
+    {
         "label": "create_user",
         "kind": 2,
         "importPath": "app.recipe.tests.test_tags_api",
         "description": "app.recipe.tests.test_tags_api",
-        "peekOfCode": "def create_user(username='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(username, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"\n        res = self.client.get(TAGS_URL)",
+        "peekOfCode": "def create_user(email='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(email, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"\n        res = self.client.get(TAGS_URL)",
         "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
@@ -1259,7 +1570,7 @@
         "kind": 5,
         "importPath": "app.recipe.tests.test_tags_api",
         "description": "app.recipe.tests.test_tags_api",
-        "peekOfCode": "TAGS_URL = reverse('recipe:tag-list')\ndef create_user(username='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(username, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_auth_required(self):\n        \"\"\"Test that authentication is required for retrieving tags\"\"\"",
+        "peekOfCode": "TAGS_URL = reverse('recipe:tag-list')\ndef detail_url(tag_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:tag-detail', args=[tag_id])\ndef create_user(email='user@examp.com', password='testpass'):\n    \"\"\"Create and return a User\"\"\"\n    return get_user_model().objects.create_user(email, password)\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly/Unauthenticated available tags API\"\"\"\n    def setUp(self):",
         "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
@@ -1273,11 +1584,29 @@
         "documentation": {}
     },
     {
+        "label": "TagSerializer",
+        "kind": 6,
+        "importPath": "app.recipe.serializers",
+        "description": "app.recipe.serializers",
+        "peekOfCode": "class TagSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for tag APIs\"\"\"\n    class Meta:\n        model = Tag\n        fields = ['id', 'name']\n        read_only_fields = ('id',)\nclass IngredientSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for Ingredient APIs\"\"\"\n    class Meta:\n        model = Ingredient",
+        "detail": "app.recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientSerializer",
+        "kind": 6,
+        "importPath": "app.recipe.serializers",
+        "description": "app.recipe.serializers",
+        "peekOfCode": "class IngredientSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for Ingredient APIs\"\"\"\n    class Meta:\n        model = Ingredient\n        fields = ['id', 'name']\n        read_only_fields = ('id',)\nclass RecipeSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for recipe APIs\"\"\"\n    tags = TagSerializer(many=True, required=False)\n    ingredients = IngredientSerializer(many=True, required=False)",
+        "detail": "app.recipe.serializers",
+        "documentation": {}
+    },
+    {
         "label": "RecipeSerializer",
         "kind": 6,
         "importPath": "app.recipe.serializers",
         "description": "app.recipe.serializers",
-        "peekOfCode": "class RecipeSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for recipe APIs\"\"\"\n    class Meta:\n        model = Recipe\n        fields = (\n            'id',\n            'title',\n            'link',\n            'price',\n            'time_minutes',",
+        "peekOfCode": "class RecipeSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for recipe APIs\"\"\"\n    tags = TagSerializer(many=True, required=False)\n    ingredients = IngredientSerializer(many=True, required=False)\n    class Meta:\n        model = Recipe\n        fields = (\n            'id',\n            'title',\n            'link',",
         "detail": "app.recipe.serializers",
         "documentation": {}
     },
@@ -1295,7 +1624,7 @@
         "kind": 5,
         "importPath": "app.recipe.urls",
         "description": "app.recipe.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('recipes', views.RecipeViewSet)\napp_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('recipes', views.RecipeViewSet)\nrouter.register('tags', views.TagViewSet)\nrouter.register('ingredients', views.IngredientViewSet)\napp_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
         "detail": "app.recipe.urls",
         "documentation": {}
     },
@@ -1323,6 +1652,33 @@
         "importPath": "app.recipe.views",
         "description": "app.recipe.views",
         "peekOfCode": "class RecipeViewSet(viewsets.ModelViewSet):\n    \"\"\"View for manage Recipe APIs\"\"\"\n    serializer_class = serializers.RecipeDetailSerializer\n    queryset = Recipe.objects.all()\n    authentication_classes = (TokenAuthentication,)\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        \"\"\"Retrieves recipes for authenticated users\"\"\"\n        return self.queryset.filter(user=self.request.user).order_by('-id')\n    def get_serializer_class(self):",
+        "detail": "app.recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRecipeAtrrViewSet",
+        "kind": 6,
+        "importPath": "app.recipe.views",
+        "description": "app.recipe.views",
+        "peekOfCode": "class BaseRecipeAtrrViewSet(mixins.ListModelMixin,\n                            viewsets.GenericViewSet,\n                            mixins.CreateModelMixin,\n                            mixins.UpdateModelMixin,\n                            mixins.DestroyModelMixin):\n    \"\"\"Base viewset for Recipe Attribute\"\"\"\n    authentication_classes = (TokenAuthentication,)\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        \"\"\"Filter queryset to authnticated user.\"\"\"",
+        "detail": "app.recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "TagViewSet",
+        "kind": 6,
+        "importPath": "app.recipe.views",
+        "description": "app.recipe.views",
+        "peekOfCode": "class TagViewSet(BaseRecipeAtrrViewSet):\n    \"\"\"Manage tags in the database\"\"\"\n    serializer_class = serializers.TagSerializer\n    queryset = Tag.objects.all()\nclass IngredientViewSet(BaseRecipeAtrrViewSet):\n    \"\"\"Manage Ingredient in the database\"\"\"\n    serializer_class = serializers.IngredientSerializer\n    queryset = Ingredient.objects.all()",
+        "detail": "app.recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientViewSet",
+        "kind": 6,
+        "importPath": "app.recipe.views",
+        "description": "app.recipe.views",
+        "peekOfCode": "class IngredientViewSet(BaseRecipeAtrrViewSet):\n    \"\"\"Manage Ingredient in the database\"\"\"\n    serializer_class = serializers.IngredientSerializer\n    queryset = Ingredient.objects.all()",
         "detail": "app.recipe.views",
         "documentation": {}
     },
