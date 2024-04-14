@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.10-alpine3.19
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
 ENV PYTHONUNBUFFERED 1
