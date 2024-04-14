@@ -476,6 +476,14 @@
         "documentation": {}
     },
     {
+        "label": "Recipe",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
         "label": "Tag",
         "importPath": "core.models",
         "description": "core.models",
@@ -493,6 +501,14 @@
     },
     {
         "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipe",
         "importPath": "core.models",
         "description": "core.models",
         "isExtraImport": true,
@@ -633,6 +649,22 @@
         "description": "django.core.management",
         "isExtraImport": true,
         "detail": "django.core.management",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
         "documentation": {}
     },
     {
@@ -821,6 +853,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "mixins",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -901,6 +941,23 @@
         "documentation": {}
     },
     {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "DefaultRouter",
         "importPath": "rest_framework.routers",
         "description": "rest_framework.routers",
@@ -925,6 +982,38 @@
         "documentation": {}
     },
     {
+        "label": "# type: ignore\n    extend_schema_view",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiParameter",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "OpenApiTypes",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
         "label": "TokenAuthentication",
         "importPath": "rest_framework.authentication",
         "description": "rest_framework.authentication",
@@ -938,6 +1027,22 @@
         "description": "rest_framework.permissions",
         "isExtraImport": true,
         "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -1021,7 +1126,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-)jh(boy)a%bmyc8$l8ljr#fp18x&8*v^mjop^1a%d#^&cr21y4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['0.0.0.0',]\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.environ.get('SECRET_KEY', 'changeme')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1030,7 +1135,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-)jh(boy)a%bmyc8$l8ljr#fp18x&8*v^mjop^1a%d#^&cr21y4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['0.0.0.0',]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = os.environ.get('SECRET_KEY', 'changeme')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1039,7 +1144,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['0.0.0.0',]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)\n# Application definition\nINSTALLED_APPS = [",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1048,7 +1153,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['0.0.0.0',]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core',",
+        "peekOfCode": "ALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1183,7 +1288,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "MEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "MEDIA_ROOT = '/vol/web/media/'\nSTATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}\nSPECTACULAR_SETTINGS = {",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1192,7 +1297,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "STATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "STATIC_ROOT = '/vol/web/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}\nSPECTACULAR_SETTINGS = {\n    'COMPONENT_SPLIT_REQUEST': True,",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1201,7 +1306,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}\nSPECTACULAR_SETTINGS = {\n    'COMPONENT_SPLIT_REQUEST': True,\n    }",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1210,7 +1315,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "AUTH_USER_MODEL = 'core.User'\nREST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}\nSPECTACULAR_SETTINGS = {\n    'COMPONENT_SPLIT_REQUEST': True,\n    }",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1219,7 +1324,16 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',\n}\nSPECTACULAR_SETTINGS = {\n    'COMPONENT_SPLIT_REQUEST': True,\n    }",
+        "detail": "app.app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SPECTACULAR_SETTINGS",
+        "kind": 5,
+        "importPath": "app.app.settings",
+        "description": "app.app.settings",
+        "peekOfCode": "SPECTACULAR_SETTINGS = {\n    'COMPONENT_SPLIT_REQUEST': True,\n    }",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1494,11 +1608,29 @@
         "documentation": {}
     },
     {
+        "label": "ImageUploadTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "class ImageUploadTests(TestCase):\n    \"\"\"Test image upload API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = get_user_model().objects.create_user(\n            'user@example.com',\n            'pass@123'\n        )\n        self.client.force_authenticate(self.user)\n        self.recipe = create_recipe(user=self.user)",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
         "label": "detail_url",
         "kind": 2,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "def detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),",
+        "peekOfCode": "def detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef image_upload_url(recipe_id):\n    \"\"\"Create and return a recipe image upload URL\"\"\"\n    return reverse('recipe:recipe-upload-image', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "image_upload_url",
+        "kind": 2,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "def image_upload_url(recipe_id):\n    \"\"\"Create and return a recipe image upload URL\"\"\"\n    return reverse('recipe:recipe-upload-image', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,\n        'price': Decimal('5.00'),",
         "detail": "app.recipe.tests.test_recipe_api",
         "documentation": {}
     },
@@ -1525,7 +1657,7 @@
         "kind": 5,
         "importPath": "app.recipe.tests.test_recipe_api",
         "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "RECIPES_URL = reverse('recipe:recipe-list')\ndef detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {\n        'title': 'Sample title Recipe',\n        \"description\": 'Sample Recipe',\n        'time_minutes': 10,",
+        "peekOfCode": "RECIPES_URL = reverse('recipe:recipe-list')\ndef detail_url(recipe_id):\n    \"\"\"Create and return a recipe detail URL\"\"\"\n    return reverse('recipe:recipe-detail', args=[recipe_id])\ndef image_upload_url(recipe_id):\n    \"\"\"Create and return a recipe image upload URL\"\"\"\n    return reverse('recipe:recipe-upload-image', args=[recipe_id])\ndef create_recipe(user, **params):    # sourcery skip: remove-unreachable-code\n    \"\"\"Create and return a sample Recipe\"\"\"\n    defaults = {",
         "detail": "app.recipe.tests.test_recipe_api",
         "documentation": {}
     },
@@ -1615,7 +1747,16 @@
         "kind": 6,
         "importPath": "app.recipe.serializers",
         "description": "app.recipe.serializers",
-        "peekOfCode": "class RecipeDetailSerializer(RecipeSerializer):\n    \"\"\"Serializer for recipe detail view APIs\"\"\"\n    class Meta(RecipeSerializer.Meta):\n        model = Recipe\n        fields = RecipeSerializer.Meta.fields + ('description',)",
+        "peekOfCode": "class RecipeDetailSerializer(RecipeSerializer):\n    \"\"\"Serializer for recipe detail view APIs\"\"\"\n    class Meta(RecipeSerializer.Meta):\n        model = Recipe\n        fields = RecipeSerializer.Meta.fields + ('description', 'image')\nclass RecipeImageSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for uploading recipe image APIs\"\"\"\n    class Meta:\n        model = Recipe\n        fields = ('id', 'image')",
+        "detail": "app.recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RecipeImageSerializer",
+        "kind": 6,
+        "importPath": "app.recipe.serializers",
+        "description": "app.recipe.serializers",
+        "peekOfCode": "class RecipeImageSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for uploading recipe image APIs\"\"\"\n    class Meta:\n        model = Recipe\n        fields = ('id', 'image')\n        read_only_fields = ('id',)\n        extra_kwargs = {'image': {'required': 'True'}}",
         "detail": "app.recipe.serializers",
         "documentation": {}
     },
@@ -1651,7 +1792,7 @@
         "kind": 6,
         "importPath": "app.recipe.views",
         "description": "app.recipe.views",
-        "peekOfCode": "class RecipeViewSet(viewsets.ModelViewSet):\n    \"\"\"View for manage Recipe APIs\"\"\"\n    serializer_class = serializers.RecipeDetailSerializer\n    queryset = Recipe.objects.all()\n    authentication_classes = (TokenAuthentication,)\n    permission_classes = (IsAuthenticated,)\n    def get_queryset(self):\n        \"\"\"Retrieves recipes for authenticated users\"\"\"\n        return self.queryset.filter(user=self.request.user).order_by('-id')\n    def get_serializer_class(self):",
+        "peekOfCode": "class RecipeViewSet(viewsets.ModelViewSet):\n    \"\"\"View for manage Recipe APIs\"\"\"\n    serializer_class = serializers.RecipeDetailSerializer\n    queryset = Recipe.objects.all()\n    authentication_classes = (TokenAuthentication,)\n    permission_classes = (IsAuthenticated,)\n    def _params_to_inst(self, qs):\n        \"\"\"Convert a list of strings to Integers\"\"\"\n        return [int(str_id) for str_id in qs.split(',')]\n    def get_queryset(self):",
         "detail": "app.recipe.views",
         "documentation": {}
     },

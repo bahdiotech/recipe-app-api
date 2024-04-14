@@ -3,3 +3,4 @@ djangorestframework
 psycopg2
 drf_spectacular
 Pillow
+uwsgi
