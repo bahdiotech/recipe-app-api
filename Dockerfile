@@ -14,8 +14,7 @@ ARG DEV=false
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     apk add --update --no-cache postgresql-client jpeg-dev && \
-    apk add -y vim gcc && \
-    apk add --update --no-cache  build-essential python3-dev gcc && \
+    apk add --update --no-cache  build-essential python3-dev vim gcc && \
     apk add --update --no-cache --virtual .tmp-build-deps \
         build-base postgresql-dev musl-dev zlib zlib-dev  linux-headers && \
     /py/bin/pip install -r /tmp/requirements.txt && \
