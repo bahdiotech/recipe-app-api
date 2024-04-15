@@ -1,4 +1,4 @@
-FROM python:3.10-alpine3.19
+FROM python:3.12-alpine3.19
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
 ENV PYTHONUNBUFFERED 1
@@ -13,6 +13,10 @@ EXPOSE 8000
 ARG DEV=false
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
+    /py/bin/pip install python-dev-tools && \
+    /py/bin/pip install python-dev-tools && \
+    apk add --update --no-cache python3-pip && \
+    apk add --update --no-cache gcc python3-devel && \
     apk add --update --no-cache postgresql-client jpeg-dev && \
     apk add --update --no-cache --virtual .tmp-build-deps \
         build-base postgresql-dev musl-dev zlib-dev linux-headers && \
