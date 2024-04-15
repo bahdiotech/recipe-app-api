@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.12-alpine3.19
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
 ENV PYTHONUNBUFFERED 1
@@ -33,7 +33,6 @@ RUN python -m venv /py && \
     chmod -R +x /scripts
 ENV PATH="/scripts:/py/bin:$PATH"
 ENV POSTGRES_HOST_AUTH_METHOD=md5
-ENV UWSGI_FORCE_REBUILD=1
 
 USER django-user
 
