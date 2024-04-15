@@ -13,12 +13,12 @@ USER root
 
 RUN mkdir -p /vol/static && \
     chmod 755 /vol/static && \
-    touch /etc/nginx/conf.d/default.conf.tpl && \
-    chown nginx:nginx /etc/nginx/conf.d/default.conf.tpl && \
+    touch /etc/nginx/conf.d/default.conf && \
+    chown nginx:nginx /etc/nginx/conf.d/default.conf && \
     chmod +x /run.sh
 
-VOLUME [ "/vol/static" ]
+VOLUME /vol/static
 
 USER nginx
 
-CMD [ "/run.sh" ]
+CMD ["/run.sh"]
