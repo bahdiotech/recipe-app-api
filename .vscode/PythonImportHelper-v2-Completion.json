@@ -1135,7 +1135,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "SECRET_KEY = os.environ.get('SECRET_KEY', 'changeme')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)",
+        "peekOfCode": "SECRET_KEY = os.environ.get('SECRET_KEY', 'changeme')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(','),\n    )\n)",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1144,7 +1144,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "DEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "DEBUG = bool(int(os.environ.get('DEBUG', 0)))\nALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(','),\n    )\n)\n# Application definition\nINSTALLED_APPS = [",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -1153,7 +1153,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(',')\n    )\n)\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "peekOfCode": "ALLOWED_HOSTS = []\nALLOWED_HOSTS.extend(\n    filter(\n        None,\n        os.environ.get('ALLOWED_HOSTS', '').split(','),\n    )\n)\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "app.app.settings",
         "documentation": {}
     },
