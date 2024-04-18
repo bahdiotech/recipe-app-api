@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.9-alpine3.13
 LABEL maintainer="bardiotech-portfolio.netlify.app"
 
 ENV PYTHONUNBUFFERED 1
@@ -15,7 +15,7 @@ RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     apk add --update --no-cache postgresql-client jpeg-dev && \
     apk add --update --no-cache --virtual .tmp-build-deps \
-        build-base postgresql-dev python3-dev pcre-dev musl-dev zlib zlib-dev  linux-headers && \
+        build-base postgresql-dev pcre libpcre16 pcre-tools libpcre32 pcre-dev musl-dev zlib zlib-dev linux-headers && \
     /py/bin/pip install -r /tmp/requirements.txt && \
     if [ $DEV = "true" ]; \
         then /py/bin/pip install -r /tmp/requirements.dev.txt ; \
@@ -28,12 +28,11 @@ RUN python -m venv /py && \
         django-user && \
     mkdir -p /vol/web/media && \
     mkdir -p /vol/web/static && \
-    chown -R django-user:django-user /vol && \
+    chown -R django-user:django-user /vol &&\
     chmod -R 755 /vol && \
     chmod -R +x /scripts
 ENV PATH="/scripts:/py/bin:$PATH"
 ENV POSTGRES_HOST_AUTH_METHOD=md5
-ENV UWSGI_FORCE_REBUILD=1
 
 USER django-user
 
